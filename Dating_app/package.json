@@ -1,0 +1,24 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon back.js",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.0",
+    "url": "^0.11.3",
+    "virtualenv": "^0.3.1"
+  },
+  "keywords": [],
+  "description": ""
+}
